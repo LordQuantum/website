@@ -1,0 +1,45 @@
+body {
+  color: #52bab3;
+  margin: auto;
+  background: #16161a;
+}
+.display-none {
+  display: none;
+}
+.fill {
+  display: block;
+  width: 100%;
+}
+textarea {
+  resize: vertical;
+}
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  /* Whatever width you want */
+}
+.idk {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.box {
+  height: auto;
+  width: auto;
+  text-align: center;
+}
